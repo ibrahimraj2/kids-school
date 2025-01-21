@@ -411,6 +411,12 @@ h2.social-title {
       span.date{
             right: -15px;
       }
+
+
+      /* footer section responsive */
+      footer .container{
+            display: block;
+      }
 }
 
 
@@ -418,4 +424,3 @@ h2.social-title {
 
 
 
-}
