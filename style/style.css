@@ -265,7 +265,7 @@ span.date {
       grid-template-columns: 1fr 1fr;
 }
 .blog-card-2 {
-      width: 290px;
+      max-width: 290px;
       background: #fff;
 }
 .blog-card-2{
@@ -346,8 +346,27 @@ img.blog-img-card-2 {
       .cur-card{
             flex-direction: column;
       }
-      .card{
+      .card, .card-3, .card-2{
             margin: 0 auto;
       }
+
+
+
+      /* blogs section responsive */
+      .blog-1{
+            display: none;
+      }
+      .blogs-container{
+            display: block;
+      }
+      span.date{
+            right: -15px;
+      }
+}
+
+
+
+
+
 
 }
