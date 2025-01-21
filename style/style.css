@@ -213,11 +213,49 @@ span.next-icon {
 }
 
 
-/* blos section style css start */
+/* blogs section style css start */
+.blogs{
+      background:url(../assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.3) 0%, #ffffff 100%);
+}
+.blogs .container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 10px;
+}
 .blog-1 {
       width: 520px;
+      background: white;
       border-radius: 18px;
 }
+img.blog-card-img {
+      border-radius: 18px 18px 0 0;
+}
+.blog-content {
+      padding: 20px 30px;
+}
+h2.blog-cont-title {
+      font-size: 25px;
+}
+p.blog-con-description.raleway {
+      font-size: 15px;
+      color: #666666;
+      padding-right: 20px;
+      padding-top: 38px;
+      padding-bottom: 10px;
+}
+span.date {
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff;
+      background: #3CD8E8;
+      padding: 10px 15px;
+      border-radius: 40px;
+      position: relative;
+      top: -12px;
+      right: -56px;
+}
+
+
 
 /* Responsive Style css code */
 
