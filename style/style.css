@@ -405,11 +405,17 @@ h2.social-title {
       .blog-1{
             display: none;
       }
+      .blog-2{
+            gap: 10px;
+      }
       .blogs-container{
             display: block;
       }
       span.date{
             right: -15px;
+            padding: 5px 8px;
+            font-size: 12px;
+            top: -16px;
       }
 
 
