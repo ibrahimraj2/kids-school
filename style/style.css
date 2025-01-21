@@ -36,7 +36,7 @@ a{
       border-radius: 12px;
 }
 img{
-      width: 100%;
+      max-width: 100%;
 }
 
 
@@ -304,6 +304,55 @@ img.blog-img-card-2 {
       border-radius: 12px;
       font-weight: 600;
 }
+
+
+
+/* footer section style css */
+footer{
+      background: #01ACFD;
+      display: flex;
+}
+footer .container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 107px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+}
+.footer-logo {
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      color: #fff;
+      width: 200px;
+}
+img.logo-2 {
+      width: 62px;
+      height: auto;
+}
+p.footer-logo-des {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      padding: 10px;
+}
+.footer-menu h2 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 700;
+}
+.f-menu li {
+      padding: 13px 10px;
+}
+.f-menu li a{
+      color: #fff;
+}
+h2.social-title {
+      color: #fff;
+}
+
+
 
 
 
