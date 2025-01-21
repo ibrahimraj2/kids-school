@@ -222,6 +222,11 @@ span.next-icon {
       margin: 0 auto;
       padding: 10px;
 }
+h2.blog-title {
+      font-size: 45px;
+      text-align: center;
+      padding: 30px;
+}
 .blog-1 {
       width: 520px;
       background: white;
@@ -253,6 +258,51 @@ span.date {
       position: relative;
       top: -12px;
       right: -56px;
+}
+/* blog card-2 style css */
+.blogs-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+}
+.blog-card-2 {
+      width: 290px;
+      background: #fff;
+}
+.blog-card-2{
+      border-radius: 18px 18px;
+}
+
+h2.blog-cont-title-2 {
+      font-size: 15px;
+      padding: 15px 25px 26px;
+}
+img.blog-img-card-2 {
+      border-radius: 18px 18px 0 0;
+}
+.blog-2 {
+      /* padding: 10px 0; */
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+}
+.hl-bg-1{
+      background: #95B226 !important;
+}
+.hl-bg-2{
+      background: #5D58F0 !important;
+}
+.blogs-btn {
+      padding: 30px;
+      margin-top: 78px;
+      text-align: center;
+}
+.b-btn {
+      background: #000;
+      border: none;
+      color: #fff;
+      padding: 10px 40px;
+      border-radius: 12px;
+      font-weight: 600;
 }
 
 
